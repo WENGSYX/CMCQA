@@ -8,3 +8,13 @@
 
 #### You can find our data in [Google drive](https://drive.google.com/file/d/1LgljQk91VeNGn3lCyUZ6Szm3ur-VVqwt/view?usp=sharing)
 #### 你可以从[百度网盘](https://pan.baidu.com/s/1QCQKanH82zAJjV6G5NrpcA?pwd=8888)中下载数据集
+
+### 引用:
+```
+@misc{CMCQA,
+  title={A large Chinese Medical CQA},
+  author={Yixuan Weng},
+  howpublished={\url{https://github.com/WENGSYX/CMCQA}},
+  year={2022}
+}
+```
