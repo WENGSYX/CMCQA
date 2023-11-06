@@ -11,10 +11,23 @@
 
 ### 引用:
 ```
-@misc{CMCQA,
-  title={A large Chinese Medical CQA},
-  author={Yixuan Weng},
-  howpublished={\url{https://github.com/WENGSYX/CMCQA}},
-  year={2022}
+@inproceedings{xia-etal-2022-medconqa,
+    title = "{M}ed{C}on{QA}: Medical Conversational Question Answering System based on Knowledge Graphs",
+    author = "Xia, Fei  and
+      Li, Bin  and
+      Weng, Yixuan  and
+      He, Shizhu  and
+      Liu, Kang  and
+      Sun, Bin  and
+      Li, Shutao  and
+      Zhao, Jun",
+    booktitle = "Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-demos.15",
+    pages = "148--158",
+    abstract = "The medical conversational system can relieve doctors{'} burden and improve healthcare efficiency, especially during the COVID-19 pandemic. However, the existing medical dialogue systems have the problems of weak scalability, insufficient knowledge, and poor controllability. Thus, we propose a medical conversational question-answering (CQA) system based on the knowledge graph, namely MedConQA, which is designed as a pipeline framework to maintain high flexibility. Our system utilizes automated medical procedures, including medical triage, consultation, image-text drug recommendation, and record. Each module has been open-sourced as a tool, which can be used alone or in combination, with robust scalability. Besides, to conduct knowledge-grounded dialogues with users, we first construct a Chinese Medical Knowledge Graph (CMKG) and collect a large-scale Chinese Medical CQA (CMCQA) dataset, and we design a series of methods for reasoning more intellectually. Finally, we use several state-of-the-art (SOTA) techniques to keep the final generated response more controllable, which is further assured by hospital and professional evaluations. We have open-sourced related code, datasets, web pages, and tools, hoping to advance future research.",
 }
 ```
